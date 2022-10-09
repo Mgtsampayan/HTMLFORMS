@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <!---<title> Responsive Registration Form | CodingLab </title>--->
+  <link rel="stylesheet" href="request.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">ABC Company IT Service Request Form</div>
+    <div class="content">
+      <form action="THANKS.HTML">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="PICK" id="dot-1">
+          <input type="radio" name="PICK" id="dot-2">
+          <span class="gender-title">PICK ONLY ONE</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">ONLINE</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">ONSITE</span>
+            </label>
+          </div>
+        </div>
+
+
+        <p>
+          <label for="LOCATION"> LOCATION
+          </label>
+          <input type="text" placeholder="TELL YOUR EXACT ADDRESS USING (No/street , Brgy , city , province)" id="instructor">
+      </p>
+
+        <div class="container">
+          <h2></h2>
+
+          <div class="select-box">
+            <div class="options-container">
+              <div class="option">
+                <input type="radio" class="radio" id="Desktop/Laptop Setup" name="category" />
+                <label for="automobiles">Desktop/Laptop Setup</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="Desktop/Laptop Support" name="category" />
+                <label for="Desktop/Laptop Support">Desktop/Laptop Support</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="Desktop/Laptop Maintenance" name="category" />
+                <label for="Desktop/Laptop Maintenance">Desktop/Laptop Maintenance</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="Software Installation" name="category" />
+                <label for="Software Installation">Software Installation</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="Software Support" name="category" />
+                <label for="Software Support">Software Support</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="Computer Peripheral Setup" name="category" />
+                <label for="Computer Peripheral Setup">Computer Peripheral Setup</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="Peripheral Troubleshooting" name="category" />
+                <label for="Peripheral Troubleshooting">Peripheral Troubleshooting</label>
+              </div>
+
+              <div class="option">
+                <input type="radio" class="radio" id="Computer Peripheral Maintenance" name="category" />
+                <label for="Computer Peripheral Maintenance">Computer Peripheral Maintenance</label>
+              </div>
+            </div>
+
+            <div class="selected">
+              Select Video Category
+            </div>
+          </div>
+        </div>
+        <script src="main.js"></script>
+
+        <div class="upload">
+          <img src="noprofil.jpg" width = 100 height = 100 alt="">
+          <div class="round">
+            <input type="file">
+            <i class = "fa fa-camera" style = "color: rgb(235, 93, 93);"></i>
+          </div>
+        </div>
+
+
+
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
